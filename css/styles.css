@@ -58,6 +58,11 @@ img{
 
 .navigation-list {
     display: flex;
+    align-items: center;
+}
+
+.navigation-list-item:not(:last-child) {
+    margin-right: 46px;
 }
 
 .logo {
