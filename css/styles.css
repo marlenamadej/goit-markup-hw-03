@@ -61,6 +61,11 @@ img{
     align-items: center;
 }
 
+.address-list {
+    display: flex;
+    align-items: center;
+}
+
 .navigation-list-item:not(:last-child) {
     margin-right: 46px;
 }
