@@ -17,7 +17,6 @@ h4,
 h5,
 h6 {
     margin: 0;
-    padding: 0;
 }
 
 ul,
@@ -30,7 +29,32 @@ p {
     padding: 0;
 }
 
+img{
+    display: block;
+}
+/*podłączyć te klasy*/
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    width: 1600px;
+}
+
 /*========HEADER========*/
+
+.header .container{
+    display:flex;
+}
+
+.navigation {
+    display: flex;
+}
+
 .logo {
     font-family: var(--secondary-font);
     font-weight: 700;
