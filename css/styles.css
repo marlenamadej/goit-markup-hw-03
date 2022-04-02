@@ -56,6 +56,10 @@ img{
     display: flex;
 }
 
+.navigation-list {
+    display: flex;
+}
+
 .logo {
     font-family: var(--secondary-font);
     font-weight: 700;
