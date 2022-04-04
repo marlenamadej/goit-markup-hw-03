@@ -134,6 +134,8 @@ img{
 /*========MAIN========*/
 .background {
     background-color: #2f303a;
+    padding-top:200px;
+    padding-bottom:280px;
 }
 
 .background-header {
