@@ -42,7 +42,7 @@ img{
 }
 
 .container {
-    width: 1170px;
+    width: 1600px;
     padding: 0 15px;
     align-items:center;
     justify-content:center;
@@ -88,8 +88,14 @@ img{
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--secondary-color);
+    margin-right: 93px;
+    padding-top:24px;
+    padding-bottom:24px;
 }
 
+.logocolor{
+    color=black;
+}
 .navigation-list,
 .address-list {
     list-style: none;
