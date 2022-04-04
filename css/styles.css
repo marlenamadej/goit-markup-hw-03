@@ -70,6 +70,10 @@ img{
     margin-right: 46px;
 }
 
+.address-list-mail {
+    margin-left:auto;
+}
+
 .logo {
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -94,7 +98,8 @@ img{
     color: var(--main-color);
 }
 
-.address-list-link {
+.address-list-mail,
+.address-list-phone {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
@@ -105,8 +110,10 @@ img{
 
 .navigation-list-link:hover,
 .navigation-list-link:focus,
-.address-list-link:hover,
-.address-list-link:focus {
+.address-list-mail:hover,
+.address-list-mail:focus,
+.address-list-phone:hover,
+.address-list-phone:focus {
     color: var(--secondary-color);
 }
 
