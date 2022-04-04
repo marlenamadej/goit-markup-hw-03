@@ -175,30 +175,43 @@ img{
 /*========END MAIN========*/
 
 /*========FEATURES========*/
+
+.container{
+    max-width:1200px;
+    padding:5px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 .features {
     font-size: 14px;
     letter-spacing: 0.03em;
     display:flex;
-    width:1170px;
-    justify-content:center;
+    flex-wrap:wrap;
+    margin-left:-10px;
+    margin-top:-10px;
+    padding:0;
+    list-style:none;
 }
-
-.features-item:not(:last-child) {
-    margin-right:30px;
+.features-item {
+    padding:10px;
+    margin-left:10px;
+    margin-top:10px;
+    flex-basic:calc((100%-40px)/4);
 }
-
 .features-title {
     font-weight: 700;
     line-height: 1.142;
     text-transform: uppercase;
     color: #212121;
+    margin-top:0;
 }
 
 .features-description {
     line-height: 1.714;
     color: #757575;
     text-transform: none;
-    white-space: pre;
+    margin:0;
 }
 
 /*========END FEATURES========*/
