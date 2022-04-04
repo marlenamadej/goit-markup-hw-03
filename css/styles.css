@@ -132,8 +132,11 @@ img{
 /*========END HEADER========*/
 
 /*========MAIN========*/
-.background {
+.background .container{
     background-color: #2f303a;
+    margin: 0 auto;
+    width: 1600px;
+    padding:200px 452px;
     
 }
 
