@@ -134,8 +134,7 @@ img{
 /*========MAIN========*/
 .background {
     background-color: #2f303a;
-    padding-top:200px;
-    padding-bottom:280px;
+    
 }
 
 .background-header {
@@ -146,6 +145,10 @@ img{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
+    padding-top:200px;
+    padding-bottom:280px;
+    padding: left 452px;
+    padding-right:452px;
 }
 
 .background-button {
