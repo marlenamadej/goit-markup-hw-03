@@ -42,11 +42,9 @@ img{
 }
 
 .container {
-    width: 1170px;
-    padding: 0 15px;
-    align-items:center;
-    justify-content:center;
-    margin: 0 auto;
+    width: 1600px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 /*========HEADER========*/
@@ -54,7 +52,7 @@ img{
 .header .container{
     display:flex;
     align-items: center;
-    width: 1600px;
+    width: 1200px;
 }
 
 .navigation {
@@ -133,12 +131,13 @@ img{
 /*========END HEADER========*/
 
 /*========MAIN========*/
-.background {
+.background .container {
     background-color: #2f303a;
+    width:1600px;
     
 }
 
-.background-header .container {
+.background-header {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.363;
@@ -146,21 +145,30 @@ img{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
-    margin:0 auto;
+    margin-left:auto;
+    margin-right:auto;
     width:1600px;
-    padding: 200px 452px;
+    padding: 200px 452px 30px 452px;
 }
 
 .background-button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
-    display: flex;
+    display: block;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    border-style:none;
+    border-radius: 4px;
     color: white;
     background-color: var(--secondary-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px 41px;
+    margin-bottom:200px;
+    
 }
 
 .background-button:hover,
@@ -177,7 +185,7 @@ img{
 /*========FEATURES========*/
 
 .container{
-    max-width:1200px;
+    width:1200px;
     padding:5px;
     margin-left:auto;
     margin-right:auto;
@@ -187,7 +195,7 @@ img{
     font-size: 14px;
     letter-spacing: 0.03em;
     display:flex;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
     margin-left:-10px;
     margin-top:-10px;
     padding:0;
@@ -195,16 +203,16 @@ img{
 }
 .features-item {
     padding:10px;
-    margin-left:10px;
-    margin-top:10px;
-    flex-basic:calc((100%-40px)/4);
+    margin-left:0;
+    margin-top:94px;
+    margin-bottom:94px;
+    flex-basic:calc((100%-0px)/4);
 }
 .features-title {
     font-weight: 700;
     line-height: 1.142;
     text-transform: uppercase;
     color: #212121;
-    margin-top:0;
 }
 
 .features-description {
@@ -225,21 +233,45 @@ img{
     letter-spacing: 0.03em;
     color: #212121;
 }
+.headerh2-pictures{
+    display:flex;
+    flex-direction:row;
+    margin-top:50px;
+    margin-bottom:94px;
+}
+.pictures-item{
+    margin-right:30px;
+    list-style: none;
+}
 
+.team {
+    display:flex;
+    flex-direction:row;
+    list-style:none;
+    margin-top:50px;
+    margin-right:30px;
+}
 .team-name {
     font-size: 16px;
-    line-height: 1.187;
+    line-height: 1.171;
     letter-spacing: 0.03em;
     font-weight: 500;
     color: #212121;
+    padding-top:30px;
+    padding:0;
+    margin:0;
+    text-align: center;
 }
 
 .team-position {
     font-size: 16px;
-    line-height: 1.187;
+    line-height: 1.171;
     letter-spacing: 0.03em;
     font-weight: 400;
     color: #757575;
+    padding:0;
+    margin:0;
+    text-align: center;
 }
 
 /*========END OFFER AND TEAM ========*/
@@ -247,6 +279,30 @@ img{
 /*========FOOTER ========*/
 .footer {
     background-color: #2f303a;
+    width:1600px;
+    margin-top:60px;
+    display:block;
+}
+
+.footer-logo{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--secondary-color);
+    margin-top:60px;
+    margin-bottom:20px;
+}
+
+.logocolor-white{
+    color:white;
+}
+
+.footer-address {
+    display:flex;
+    flex-direction: column;
 }
 
 .footer-address {
