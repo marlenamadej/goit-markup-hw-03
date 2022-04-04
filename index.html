@@ -37,8 +37,11 @@
     <main>
         
         <section class="background">
-            <h1 class="background-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1><br>
-            <button class="background-button" type="button">Zamów usługę</button>
+            <div class="container">
+                <h1 class="background-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1><br>
+                <button class="background-button" type="button">Zamów usługę</button>
+            </div>
+            
         </section>
        
         <div class="container">
@@ -72,68 +75,75 @@
         
 
         <section>
-            <h2 class="headerh2">Czym się zajmujemy</h2>
-            <ul>
-                <li><img src="images/img1resized.jpg" alt="computer" width="370" height="294" /></li>
-                <li><img src="images/img2resized.jpg" alt="phone" width="370" height="294" /></li>
-                <li><img src="images/img3resized.jpg" alt="tablet" width="370" height="294" /></li>
-            </ul>
+            <div class="container">
+                <h2 class="headerh2">Czym się zajmujemy</h2>
+                <ul class="headerh2-pictures">
+                    <li class="pictures-item"><img src="images/img1resized.jpg" alt="computer" width="370" height="294" /></li>
+                    <li class="pictures-item"><img src="images/img2resized.jpg" alt="phone" width="370" height="294" /></li>
+                    <li class="pictures-item"><img src="images/img3resized.jpg" alt="tablet" width="370" height="294" /></li>
+                </ul>
+            </div>
         </section>
 
         <section>
-            <h2 class="headerh2">Nasz zespół</h2>
-            <ul class="team">
-                <li>
-                    <figure>
-                        <img src="images/productdesignerresized.jpg" alt="Product Designer" width="270" height="260" />
-                        <figcaption>
-                            <p class="team-name">John Doe</p><br>
-                            <p class="team-position">Product Designer</p>
-                        </figcaption>
-                    </figure>
-                </li>
-
-                <li>
-                    <figure>
-                        <img src="images/frontenddeveloperresized.jpg" alt="Frontend Developer" width="270"
-                            height="260" />
-                        <figcaption>
-                            <p class="team-name">John Doe</p><br>
-                            <p class="team-position">Frontend Developer</p>
-                        </figcaption>
-                    </figure>
-                </li>
-
-                <li>
-                    <figure>
-                        <img src="images/marketingresized.jpg" alt="Marketing" width="270" height="260" />
-                        <figcaption>
-                            <p class="team-name">John Doe</p><br>
-                            <p class="team-position">Marketing</p>
-                        </figcaption>
-                    </figure>
-                </li>
-
-                <li>
-                    <figure>
-                        <img src="images/uidesignerresized.jpg" alt="UI Designer" width="270" height="260" />
-                        <figcaption>
-                            <p class="team-name">John Doe</p><br>
-                            <p class="team-position">UI Designer</p>
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="headerh2">Nasz zespół</h2>
+                <ul class="team">
+                    <li class="worker">
+                        <figure>
+                            <img src="images/productdesignerresized.jpg" alt="Product Designer" width="270" height="260" />
+                            <figcaption>
+                                <p class="team-name">John Doe</p><br>
+                                <p class="team-position">Product Designer</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                
+                    <li class="worker">
+                        <figure>
+                            <img src="images/frontenddeveloperresized.jpg" alt="Frontend Developer" width="270" height="260" />
+                            <figcaption>
+                                <p class="team-name">John Doe</p><br>
+                                <p class="team-position">Frontend Developer</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                
+                    <li class="worker">
+                        <figure>
+                            <img src="images/marketingresized.jpg" alt="Marketing" width="270" height="260" />
+                            <figcaption>
+                                <p class="team-name">John Doe</p><br>
+                                <p class="team-position">Marketing</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                
+                    <li class="worker">
+                        <figure>
+                            <img src="images/uidesignerresized.jpg" alt="UI Designer" width="270" height="260" />
+                            <figcaption>
+                                <p class="team-name">John Doe</p><br>
+                                <p class="team-position">UI Designer</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+            
         </section>
     </main>
-    <footer class="footer">
-        <a class="logo" href="index.html">WebStudio</a>
-        <address class="footer-address">
-            m. Warszawa, Aleje Jerozolimskie 21<br>
-            <a class="footer-address-link" href="mailto:info@example.com">info@example.com</a><br>
-            <a class="footer-address-link" href="tel:+48111111111">+48 111 111 111</a>
-        </address>
-    </footer>
+    <div class="container">
+        <footer class="footer">
+            <a class="footer-logo" href="index.html">Web<span class="logocolor-white">Studio</span></a>
+            <address class="footer-address">
+                m. Warszawa, Aleje Jerozolimskie 21<br>
+                <a class="footer-address-link" href="mailto:info@example.com">info@example.com</a><br>
+                <a class="footer-address-link" href="tel:+48111111111">+48 111 111 111</a>
+            </address>
+        </footer>
+    </div>
+    
 </body>
 
 </html>
