@@ -134,9 +134,6 @@ img{
 /*========MAIN========*/
 .background .container{
     background-color: #2f303a;
-    margin: 0 auto;
-    width: 1600px;
-    padding:200px 452px;
     
 }
 
@@ -148,10 +145,6 @@ img{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
-    padding-top:200px;
-    padding-bottom:280px;
-    padding: left 452px;
-    padding-right:452px;
 }
 
 .background-button {
