@@ -52,11 +52,13 @@ img{
 .header .container{
     display:flex;
     align-items: center;
-    width: 1200px;
+    width: 1600px;
+    border: 1px solid #ECECEC;
 }
 
 .navigation {
     display: flex;
+    
 }
 
 .navigation-list {
@@ -87,6 +89,7 @@ img{
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--secondary-color);
+    margin-left:215px;
     margin-right: 93px;
     padding-top:24px;
     padding-bottom:24px;
@@ -190,7 +193,7 @@ img{
 }
 
 .features .container {
-    witdth:1600px;
+    width: 1600px;
     font-size: 14px;
     letter-spacing: 0.03em;
 }
@@ -201,8 +204,8 @@ img{
     list-style:none;
 }
 .features-item {
-    margin-top:94px;
-    flex-basic:calc((100%-0px)/4);
+    margin-top: 94px;
+    flex-basis: calc((100%-30px)/4);
     
 }
 .features-title {
@@ -363,7 +366,7 @@ img{
 /*========END FOOTER ========*/
 
 /*========PORTFOLIO ========*/
-.portfolio-nav{
+.portfolio-nav .container{
     width:1600px;
 }
 
@@ -380,7 +383,6 @@ img{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    
 }
 
 .menu-button {
@@ -395,6 +397,8 @@ img{
     border-style: none;
     margin-right:8px;
     padding:6px 22px 6px 22px;
+    margin-bottom:56px;
+    margin-top:94px;
 }
 
 .menu-button:not(:last-child){
@@ -416,6 +420,10 @@ img{
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
+    margin:0;
+    padding-top:20px;
+    padding-bottom:4px;
+    padding-left:24px
 }
 
 .portfolio-description {
@@ -423,6 +431,28 @@ img{
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: #757575;
+    margin:0;
+    padding-left:24px;
+    padding-bottom:20px;
+}
+    
+.projects-nav .container{
+    width:1600px
+}
+.projects {
+    display: flex;
+    flex-wrap:wrap;
+    list-style:none;
+    justify-content:center;
+    margin-left:-30px;
+    margin-top:-30px;
+}
+
+.pic{
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom:0;
 }
 
 /*========END-PORTFOLIO ========*/
