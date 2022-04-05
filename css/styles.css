@@ -193,8 +193,6 @@ img{
 
 .features .container {
     width: 1600px;
-    font-size: 14px;
-    letter-spacing: 0.03em;
 }
 
 .features{
@@ -215,6 +213,8 @@ img{
     text-transform: uppercase;
     color: #212121;
     width:270;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 .features-description{
     line-height: 1.714;
@@ -223,6 +223,8 @@ img{
     margin-bottom:0;
     text-transform: none;
     width:270;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 
