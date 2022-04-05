@@ -19,8 +19,7 @@ h6 {
     margin: 0;
 }
 
-ul,
-ol {
+ul {
     margin: 0;
     padding: 0;
 }
@@ -53,7 +52,7 @@ img{
     display:flex;
     align-items: center;
     width: 1600px;
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .navigation {
@@ -199,20 +198,23 @@ img{
 }
 
 .features{
-    display:flex;
-    flex-wrap:nowrap;
-    list-style:none;
-}
-.features-item {
+    display: flex;
+    justify-content:center ;
+    margin-right: -30px;
+    list-style: none;
     margin-top: 94px;
-    flex-basis: calc((100%-30px)/4);
-    
 }
+.features-item:not(:last-child) {
+    margin-right:30px;
+    flex-basis: calc(100%/4-30px);
+}
+
 .features-title {
     font-weight: 700;
     line-height: 1.142;
     text-transform: uppercase;
     color: #212121;
+    width:270;
 }
 .features-description{
     line-height: 1.714;
@@ -220,10 +222,9 @@ img{
     margin-top:10px;
     margin-bottom:0;
     text-transform: none;
+    width:270;
 }
-.features-description:not(:last-child) {
-    margin-right:30px;
-}
+
 
 /*========END FEATURES========*/
 
@@ -368,6 +369,7 @@ img{
 /*========PORTFOLIO ========*/
 .portfolio-nav .container{
     width:1600px;
+    
 }
 
 .portfolio-nav-list{
@@ -414,28 +416,6 @@ img{
     cursor: pointer;
 }
 
-.portfolio-title {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: #212121;
-    margin:0;
-    padding-top:20px;
-    padding-bottom:4px;
-    padding-left:24px
-}
-
-.portfolio-description {
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.03em;
-    color: #757575;
-    margin:0;
-    padding-left:24px;
-    padding-bottom:20px;
-}
-    
 .projects-nav .container{
     width:1600px
 }
@@ -443,16 +423,37 @@ img{
     display: flex;
     flex-wrap:wrap;
     list-style:none;
-    justify-content:center;
+    justify-content: center;
     margin-left:-30px;
     margin-top:-30px;
+    flex-basis: calc(100% / 3 - 30px);
 }
 
 .pic{
-    flex-basis: calc(100% / 3 - 30px);
-    margin-left: 30px;
-    margin-top: 30px;
-    margin-bottom:0;
+    border-bottom: 1px solid #EEEEEE;
+    margin-left:30px;
+    margin-top:30px;
 }
 
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    padding-left: 24px
+}
+
+.portfolio-description {
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin: 0;
+    padding-left: 24px;
+    padding-bottom: 20px;
+}
 /*========END-PORTFOLIO ========*/
