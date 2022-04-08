@@ -8,6 +8,8 @@
 body {
     font-family: var(--main-font);
     color: var(--main-color);
+    max-width: 0 auto;
+    margin:0 auto;
 }
 
 h1,
@@ -417,7 +419,7 @@ img{
 }
 
 .projects-nav .container{
-    width:1600px
+    width:1600px;
 }
 .projects-nav {
     margin-bottom: 94px;
