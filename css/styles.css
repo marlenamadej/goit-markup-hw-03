@@ -193,19 +193,17 @@ img{
 }
 
 .features .container {
-    width: 1600px;
+    width: 1200px;
 }
 
 .features{
     display: flex;
     justify-content:center ;
-    margin-right: -30px;
     list-style: none;
     margin-top: 94px;
 }
 .features-item:not(:last-child) {
     margin-right:30px;
-    flex-basis: calc(100%/4-30px);
 }
 
 .features-title {
@@ -223,9 +221,10 @@ img{
     margin-top:10px;
     margin-bottom:0;
     text-transform: none;
-    width:270;
     font-size: 14px;
     letter-spacing: 0.03em;
+    font-weight: 400;
+    width:270px;
 }
 
 
